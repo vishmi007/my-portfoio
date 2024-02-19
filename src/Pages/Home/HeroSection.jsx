@@ -1,3 +1,10 @@
+/* Author : Vishmi Kalansooriya
+File Name: HeroSection.jsx
+Purpose: To implement the landing page of my(vishmi's) portfoio
+Date: 18/02/2023
+Last modified: 19/02/2023
+*/
+
 export default function HeroSection() {
     return (
       <section id="heroSection" className="hero--section">

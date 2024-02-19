@@ -1,3 +1,11 @@
+/* Author : Vishmi Kalansooriya
+File Name: Navbar.jsx
+Purpose: To implement the  Navigation Bar/Pane
+Date: 18/02/2023
+Last modified: -
+*/
+
+
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
