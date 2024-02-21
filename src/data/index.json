@@ -74,7 +74,43 @@
         "Strengthened expertise in shell scripting, enabling advanced automation and efficient system management."
       ]
     }
+  ],
+  "volunteering": [
+    {
+      "id": "1",
+      "src": "./img/aiesec.png",
+      "description": "As a part of the executive board in AIESEC in Sri Lanka in the year 2023, I took on the role of People Management. This experience provided valuable insights and learnings:",
+      "learnings": [
+        "Developed effective people management strategies",
+        "Enhanced leadership and teamwork skills",
+        "Gained experience in organizational decision-making",
+        "Developed relationships with people around the world",
+        "Participated in 4 national conferences"
+      ]
+     
+    },
+    {
+      "id": "2",
+      "src": "./img/tennis.png",
+      "description": "As a tennis player, I achieved the remarkable feat of ranking number 4 in Sri Lanka at the age of 12. This accomplishment fueled my passion for the sport, and I continued to excel in tennis for many years. Through my tennis journey, I learned:",
+      "learnings": [
+        "Discipline and time management",
+        "Resilience in the face of challenges",
+        "Teamwork and sportsmanship",
+        "Goal-setting and perseverance"
+      ]
+      
+    },
+    {
+      "id": "3",
+      "src": "./img/badminton.png",
+      "description": "In 2019, I served as the Badminton School Captain, leading with dedication and passion. This role not only allowed me to contribute to the school community but also taught me invaluable lessons in leadership, teamwork, and effective communication.",
+      "learnings": [
+        "To inspire and motivate my team",
+        "To foster a sense of unity",
+        "To promote sportsmanship"
+      ]
+
+    }
   ]
-
-
 }
