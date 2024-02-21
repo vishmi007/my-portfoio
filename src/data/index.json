@@ -2,25 +2,25 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/feather-pen-1.png",
+      "src": "./my-portfolio/img/feather-pen-1.png",
       "title": "Full-Stack Development",
       "description": "Proficient in building end-to-end web applications using ReactJs for front-end development, ExpressJs and NodeJS for server-side development, and a variety of databases including MongoDB and Firebase for efficient data management."
     },
     {
       "id": "2",
-      "src": "./img/feather-pen-2.png",
+      "src": "./my-portfolio/img/feather-pen-2.png",
       "title": "Development Processes and Tools",
       "description": "Proficient in containerization using Docker for efficient deployment and scalability. Experienced in utilizing Azure DevOps for continuous integration, delivery, and automated deployment pipelines."
     },
     {
       "id": "3",
-      "src": "./img/product-chain-1.png",
+      "src": "./my-portfolio/img/product-chain-1.png",
       "title": "System Monitoring and Automation",
       "description": "Adept at maintaining and enhancing Grafana dashboards for effective monitoring and visualization of system metrics."
     },
     {
       "id": "4",
-      "src": "./img/tag-1.png",
+      "src": "./my-portfolio/img/tag-1.png",
       "title": "Programming Fundamentals",
       "description": "Experienced in managing relational databases like MySQL and NoSQL databases. Proficient in a diverse set of programming languages, including C, JavaScript, Java, C#, and Python. Solid understanding of fundamental data structures and design patterns. Proficient in applying appropriate data structures and design principles to solve complex problems efficiently."
     }
@@ -28,7 +28,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/spms.png",
+      "src": "./my-portfolio/img/spms.png",
       "title": "Student Project Management System",
       "description": "The purpose of this project was to build a project management application for university students to manage their academic group projects more efficiently and to provide a centralized platform for them to plan, organize, track, and collaborate on their projects. This also helps lecturers and supervisors to track and manage each group easily.",
       "techStack":"Firebase, React(.js), Express(.js), Node(.js)",
@@ -36,7 +36,7 @@
     },
     {
       "id": "2",
-      "src": "./img/maze-game.png",
+      "src": "./my-portfolio/img/maze-game.png",
       "title": "Maze Game",
       "description": "The Maze Game project was meticulously crafted with the primary objective of facilitating an immersive learning experience in multi-threading within the Java programming language. This interactive game empowers users with the ability to dynamically expand the grid according to their preferences. What sets this project apart is the flexibility it offers in selecting various types of robots for gameplay. The unique feature of generating an unlimited number of robots until the conclusion of the game adds an exciting element of unpredictability. The overarching mission in this engaging game is for the user to safeguard their citadel from encroaching robots by strategically eliminating them, adding an element of challenge and strategy to the gaming experience.",
       "techStack":"Java,JavaFX",
@@ -44,7 +44,7 @@
     },
     {
       "id": "3",
-      "src": "./img/food-del.png",
+      "src": "./my-portfolio/img/food-del.png",
       "title": "Food Delivery Application",
       "description": "The Food Delivery Application was meticulously developed to serve as a comprehensive platform catering to both restaurants and users. For restaurants, the application provides a seamless process to create accounts and effortlessly publish their array of offerings. This user-friendly interface ensures that establishments can efficiently showcase their goods and reach a broader audience. On the user side, the application offers a convenient and straightforward experience. Users can effortlessly browse through a variety of restaurants, select their preferred establishment, and choose from a diverse menu of offerings. The application's primary goal is to streamline the entire food delivery process, allowing users to enjoy their favorite meals from the comfort of their homes with just a few clicks.",
       "techStack":"Java, SQLite database, Android Studio",
@@ -78,7 +78,7 @@
   "volunteering": [
     {
       "id": "1",
-      "src": "./img/aiesec.png",
+      "src": "./my-portfolio/img/aiesec.png",
       "description": "As a part of the executive board in AIESEC in Sri Lanka in the year 2023, I took on the role of People Management. This experience provided valuable insights and learnings:",
       "learnings": [
         "Developed effective people management strategies",
@@ -91,7 +91,7 @@
     },
     {
       "id": "2",
-      "src": "./img/tennis.png",
+      "src": "./my-portfolio/img/tennis.png",
       "description": "As a tennis player, I achieved the remarkable feat of ranking number 4 in Sri Lanka at the age of 12. This accomplishment fueled my passion for the sport, and I continued to excel in tennis for many years. Through my tennis journey, I learned:",
       "learnings": [
         "Discipline and time management",
@@ -103,7 +103,7 @@
     },
     {
       "id": "3",
-      "src": "./img/badminton.png",
+      "src": "./my-portfolio/img/badminton.png",
       "description": "In 2019, I served as the Badminton School Captain, leading with dedication and passion. This role not only allowed me to contribute to the school community but also taught me invaluable lessons in leadership, teamwork, and effective communication.",
       "learnings": [
         "To inspire and motivate my team",
