@@ -16,6 +16,10 @@ h6,
 p {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+
 :root {
   --primary: #5e3bee;
   --heading-color: #282938;
@@ -24,6 +28,8 @@ p {
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
+  --border-color:#000000;
+  --bg-color:#ffffff;
 }
 .btn {
   font-family: "Roboto";
@@ -79,6 +85,87 @@ p {
 .btn-github:hover {
   color: var(--github);
   background-color: var(--white);
+}
+
+.dark-mode {
+  --primary: #5e3bee;
+  --heading-color: #ffffff; 
+  --bg-shade: #0a0a0a; 
+  --github: #e62872;
+  --darkblue: #c0c1e1;
+  --black: #ffffff;
+  --white: #000000; 
+  --border-color:#ffffff;
+  --bg-color:#000000;
+}
+
+
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.dark-mode-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 /* Global CSS Ends */
 /* Main Headings */
@@ -140,7 +227,7 @@ h2 {
   display: flex;
   align-items: flex-start;
 }
-/* Portfolio, Testimonial & Contact Me */
+/* Portfolio, volunteering & Contact Me */
 .sub--title {
   color: var(--heading-color);
   font-size: 16px;
@@ -207,6 +294,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
+  animation: fadeIn 0.8s ease-out;
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
@@ -244,6 +332,8 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
+  background-color: var(--bg-color);
+ 
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -257,6 +347,7 @@ h2 {
   align-items: flex-start;
   gap: 42.6px;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 .skills--section--card {
   display: flex;
@@ -268,6 +359,7 @@ h2 {
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 250px;
+  height: 530px;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
@@ -291,6 +383,7 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  animation: fadeIn 0.8s ease-out;
 }
 .skills--section--title {
   color: var(--heading-color);
@@ -314,12 +407,20 @@ h2 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
+  background-color: var(--bg-color);
 }
 .about--section--img > img {
   width: 100%;
   height: 100%;
 }
-/* About Us Ends */
+
+.aboutme-section--heading{
+  color: var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+}
+/* About Me Ends */
 
 /* My Portfolio Starts */
 .portfolio--section {
@@ -328,6 +429,14 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  background-color: var(--bg-color);
+}
+
+.portfolio--section--heading {
+  color: var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
 }
 .portfolio--container-box {
   display: flex;
@@ -366,6 +475,8 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  height: 1300px;
+  background-color: var(--bg-color);
 }
 .portfolio--section--card--content {
   display: flex;
@@ -374,6 +485,7 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  animation: fadeIn 0.8s ease-out;
 }
 .portfolio--section--title {
   color: var(--heading-color);
@@ -391,8 +503,8 @@ h2 {
 }
 /* Portfolio Ends */
 
-/* Testimonial */
-.testimonial--section {
+/* volunteering */
+.volunteering--section {
   display: flex;
   padding: 112px 84.3px;
   flex-direction: column;
@@ -403,7 +515,7 @@ h2 {
 .sections--heading {
   color: var(--heading-color);
 }
-.testimonial--section--card {
+.volunteering--section--card {
   display: flex;
   padding: 42.6px;
   flex-direction: column;
@@ -411,29 +523,23 @@ h2 {
   gap: 42.6px;
   flex: 1 0 0;
   border-radius: 8px;
-  border: 1.33px solid #006b6a;
+  border: 2.33px solid #006b6a;
+  height: 650px;
 }
-.testimonial--section--card--reviews {
-  display: flex;
-  align-items: flex-start;
-  gap: 5.33px;
-}
-.testimonial--section--card--author--detail {
+.volunteering--section--card--image {
   display: flex;
   align-items: center;
-  gap: 21.3px;
+  gap: 5.33px;
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+
+  .volunteering--learnings-list{
+    color: var(--bg-color);
+  }
+ 
 }
-.testimonial--author--name {
-  font-weight: 600;
-  color: var(--heading-color);
-}
-.testimonial--author--designation {
-  color: var(--darkblue);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-}
-/* Testimonial Ends */
+/* volunteering Ends */
 .contact--section {
   display: flex;
   padding: 150px 85px;
@@ -442,6 +548,7 @@ h2 {
   align-items: center;
   text-align: center;
   gap: 64px;
+  background-color: var(--bg-color);
 }
 .contact--form--container {
   display: grid;
@@ -450,6 +557,8 @@ h2 {
   width: 40%;
   row-gap: 32px;
 }
+
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -630,7 +739,7 @@ input[type="checkbox"] {
     gap: 30px;
   }
   .skills--section,
-  .testimonial--section,
+  .volunteering--section,
   .contact--section,
   .footer--container {
     gap: 20px;
@@ -642,7 +751,7 @@ input[type="checkbox"] {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .testimonial--section--card {
+  .volunteering--section--card {
     padding: 25px;
   }
   .hero--section--title,

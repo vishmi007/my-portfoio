@@ -7,9 +7,6 @@ Last modified: 19/02/2023
 
 export default function HeroSection() {
 
-<<<<<<< HEAD
-  
-=======
   const handleDownloadResume = () => {
    
     const resumePath = './Vishmi-Resume.pdf';
@@ -25,7 +22,6 @@ export default function HeroSection() {
     downloadLink.click();
   };
 
->>>>>>> hero-section
     return (
       <section id="heroSection" className="hero--section">
         <div className="hero--section--content--box">

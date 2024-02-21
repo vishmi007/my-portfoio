@@ -7,8 +7,8 @@ export default function AboutMe() {
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
             <p className="section--title">Education & Experience</p>
-            <h1 className="skills-section--heading">My Education & Industrial Training</h1>
-            <p className="hero--section-description">
+            <h1 className="aboutme-section--heading">My Education & Industrial Training</h1>
+            <p className="hero--section-description fadeIn">
             I recently graduated from the University of Curtin with a Bachelor's degree in Computing,
              specializing in Software Engineering. My academic performance is reflected in a course-weighted 
              average of 73.17. Throughout my studies, I actively engaged in diverse projects, solidifying my
