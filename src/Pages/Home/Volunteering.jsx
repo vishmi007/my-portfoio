@@ -4,9 +4,9 @@ import data from "../../data/index.json";
 export default function Volunteering() {
   return (
     <section className="volunteering--section" id="volunteering">
-      <div className="portfolio--container-box">
+      <div className="portfolio--container-box"> 
         <div className="portfolio--container">
-          <p className="sub--title">Volunteer  & Sports</p>
+          <p className="sub--title">Volunteering  & Sports</p>
           <h2 className="sections--heading"> A great Team Player</h2>
         </div>
       </div>

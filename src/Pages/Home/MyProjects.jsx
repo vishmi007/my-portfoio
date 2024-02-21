@@ -42,6 +42,11 @@ export default function MyProjects() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
+              {item.techStack && (
+                  <p className="portfolio--tech-stack">
+                    <strong>Tech Stack:</strong> {item.techStack}
+                  </p>
+                )}
               <p className="text-sm portfolio--link">
               <a href={item.link} target="_blank" rel="noopener noreferrer">
                   View In Github
