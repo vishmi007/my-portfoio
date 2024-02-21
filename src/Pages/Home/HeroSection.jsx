@@ -7,7 +7,25 @@ Last modified: 19/02/2023
 
 export default function HeroSection() {
 
+<<<<<<< HEAD
   
+=======
+  const handleDownloadResume = () => {
+   
+    const resumePath = './Vishmi-Resume.pdf';
+    
+    // Create an anchor element
+    const downloadLink = document.createElement('a');
+    downloadLink.href = resumePath;
+
+    // Specify the filename for the download
+    downloadLink.download = 'Vishi_K_Resume.pdf';
+
+    // Trigger the click event on the anchor element
+    downloadLink.click();
+  };
+
+>>>>>>> hero-section
     return (
       <section id="heroSection" className="hero--section">
         <div className="hero--section--content--box">
@@ -21,7 +39,7 @@ export default function HeroSection() {
             I am actively seeking opportunities to kick-start my career as a junior software engineer or a junior devOps Engineer. Whether you need a website developed or are looking to add a dynamic team member, I'm eager to contribute my skills and enthusiasm to make an impact.    
             </p>
           </div>
-          <button className="btn btn-primary">Download resume</button>
+          <button className="btn btn-primary"  onClick={handleDownloadResume}>Download resume</button>
         </div>
         <div className="hero--section--img">
           <img src="./img/me-image.png" alt="Hero Section" />
