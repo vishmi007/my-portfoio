@@ -25,9 +25,10 @@ function App() {
         </div>
       </Router>
       {/* Dark mode toggle button */}
-      <button onClick={toggleDarkMode}>
-        {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-      </button>
+      <label className="dark-mode-toggle">
+        <input type="checkbox" checked={darkMode} onChange={toggleDarkMode} />
+        <span className="slider round"></span>
+      </label>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function MyProjects() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          <h2 className="portfolio--section--heading">My Portfolio</h2>
         </div>
         <div>
         <a href="https://github.com/vishmi007" target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,7 @@ export default function MyProjects() {
                 <p className="text-md">{item.description}</p>
               </div>
               {item.techStack && (
-                  <p className="portfolio--tech-stack">
+                  <p className="text-md">
                     <strong>Tech Stack:</strong> {item.techStack}
                   </p>
                 )}

@@ -16,9 +16,9 @@ export default function Volunteering() {
             <img src={item.src} alt="Volunteering Image" className="volunteering--section--card--image" />
             <p className="text-md">{item.description}</p>
             {item.learnings && (
-              <ul className="volunteering--learnings-list">
+              <ul className="text-md">
                 {item.learnings.map((learning, idx) => (
-                  <li key={idx} className="volunteering--learning-item">{learning}</li>
+                  <li key={idx} className="text-md">{learning}</li>
                 ))}
               </ul>
             )}
