@@ -32,7 +32,7 @@
       "title": "Student Project Management System",
       "description": "The purpose of this project was to build a project management application for university students to manage their academic group projects more efficiently and to provide a centralized platform for them to plan, organize, track, and collaborate on their projects. This also helps lecturers and supervisors to track and manage each group easily.",
       "tech-stack":"Firebase, React(.js), Express(.js), Node(.js)",
-      "link": "View In Github"
+      "link": "https://github.com/vishmi007/student-project-management-system"
     },
     {
       "id": "2",
