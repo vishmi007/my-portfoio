@@ -105,7 +105,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="Volunteering"
               className="navbar--content"
             >
               Volunteering and Sports

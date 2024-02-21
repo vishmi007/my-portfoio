@@ -50,6 +50,30 @@
       "tech-stack":"Java, SQLite database, Android Studio",
       "link": "https://github.com/vishmi007/food-delivery-application"
     }
+  ],
+
+  "education": [
+    {
+      "id":"1",
+      "school": "Curtin University",
+      "degree": "Bachelor of Computing (Software Engineering)",
+      "graduationYear": 2024
+    }
+  ],
+  "experience": [
+    {
+      "position": "Software Engineering Trainee",
+      "company": "IFS R & D International",
+      "startDate": "February 2023",
+      "endDate": "November 2023",
+      "description" : [
+        "Developed a full-stack web application for container management using ReactJs, ExpressJs, NodeJS, and MongoDB.",
+        "Engaged in Agile methodology, acquiring substantial knowledge through sprint commitments.",
+        "Possess practical skills in Docker and Azure DevOps, contributing to an enhanced understanding of deployment and CI/CD processes.",
+        "Played a significant role in the maintenance and improvement of Grafana dashboards, managing complex data visualizations.",
+        "Strengthened expertise in shell scripting, enabling advanced automation and efficient system management."
+      ]
+    }
   ]
 
 
