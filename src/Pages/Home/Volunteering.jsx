@@ -13,7 +13,7 @@ export default function Volunteering() {
       <div className="portfolio--section--container">
         {data?.volunteering?.map((item, index) => (
           <div key={index} className="volunteering--section--card">
-            <img src={item.src} alt="Volunteering Image" className="volunteering--section--card--image" />
+              <img src={process.env.PUBLIC_URL + item.src} alt="Volunteering Image" className="volunteering--section--card--image"/>
             <p className="text-md">{item.description}</p>
             {item.learnings && (
               <ul className="text-md">

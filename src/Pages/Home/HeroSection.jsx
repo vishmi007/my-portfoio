@@ -38,7 +38,7 @@ export default function HeroSection() {
           <button className="btn btn-primary"  onClick={handleDownloadResume}>Download resume</button>
         </div>
         <div className="hero--section--img">
-          <img src="./my-portfolio/img/me-image.png" alt="Hero Section" />
+          <img src={process.env.PUBLIC_URL + '/img/me-image.png'} alt="About Me" />
         </div>
       </section>
     );
